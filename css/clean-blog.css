@@ -70,7 +70,7 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background: transparent;
+    /*background: transparent;*/
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
@@ -87,7 +87,7 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    /*color: rgba(255, 255, 255, 0.8);*/
   }
   .navbar-custom .nav li ul.dropdown-menu a {
     color: #333333;
@@ -260,6 +260,16 @@ hr.small {
     font-size: 36px;
   }
 }
+
+.post-preview-index {
+}
+
+.post-preview-index > a > .post-title {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
 .section-heading {
   font-size: 36px;
   margin-top: 60px;

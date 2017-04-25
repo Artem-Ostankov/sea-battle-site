@@ -12,20 +12,11 @@
     
     
     <item>
-      <title>Development</title>
-      <link>http://example.org/categories/development/</link>
-      <pubDate>Mon, 24 Apr 2017 15:37:54 +0200</pubDate>
+      <title>Game Design</title>
+      <link>http://example.org/categories/game-design/</link>
+      <pubDate>Tue, 25 Apr 2017 09:15:54 +0200</pubDate>
       
-      <guid>http://example.org/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Website</title>
-      <link>http://example.org/categories/website/</link>
-      <pubDate>Mon, 24 Apr 2017 15:37:54 +0200</pubDate>
-      
-      <guid>http://example.org/categories/website/</guid>
+      <guid>http://example.org/categories/game-design/</guid>
       <description></description>
     </item>
     

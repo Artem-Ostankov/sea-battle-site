@@ -2,7 +2,6 @@
 <html lang="en-us">
 
 <head>
-	<meta name="generator" content="Hugo 0.20.5" />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sea Battle Evoloved -- Sea Battle Evoloved</title>
+    <title>Gather unit -- Sea Battle Evoloved</title>
 
-    
-    <link href="http://example.org/index.xml" rel="alternate" type="application/rss+xml" title="Sea Battle Evoloved" />
-    <link href="http://example.org/index.xml" rel="feed" type="application/rss+xml" title="Sea Battle Evoloved" />
     
 
     
@@ -76,128 +72,72 @@
 
 
     
-
-    <header class="intro-header" >
+    
+    <header class="intro-header" style="background-image: url('http://example.org///img/about-bg.jpg')">
+      
       <div class="container">
-        <div class="row" style="padding-top:50px;">
-          <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 text-center">
-            <h1>Sea Battle Evolved</h1>  
-            <img class="img-rounded" width="340" height="200" src="http://example.org/img/screenshot_game_1.png" alt="First slide">
-            <p class="lead">A fresh look on a familiar old school Sea Battle that turns it into a deep tactical endeavour.</p>
-            <h4> About the game </h4>
-            <p> This game basically combines mechanics of Sea Battle, Chess and WeGo:<br/> 
-               1. intuitive old-school Sea Battle paper game  <br/> 
-               2. WeGo mechanics that lets players plan and executes actions simultaneously in a defined order. So no one needs to wait <br/> 
-               3. while planning your actions you may get a tip about your opponents actions to decide a better counteraction.
-             </p>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1" style="padding-top:70px;" >
-              <h5>This is an early development version of the game.</h5>
-              <p>Though you can already play the game in a browser or for a better experience download it.</p>
-              <div class="row" >
-                
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
-                  <a class="btn btn-lg btn-info" href="http://example.org//download/" title="download">Download</a>
-                </div>
-              </div>
-
-              
-
-              <div class="row">
-                <h4 style="padding-top:60px;"> Recent blog posts: </h4>
-                <div class="row" style="padding-left:10px;">
-                  <div class="col-sm-12">
-                    
-                    
-                          <div class="post-preview post-preview-index">
-     <a href="http://example.org/post/simultaneous_vs_ordered/">
-          <h4 class="post-title">Simultaneous vs Ordered</h4>
-          
-        </a>
-        <p class="post-meta">
-          
-  A 1 minute read,
-
-Posted
- 
-on Tue, Apr 25, 2017
-
-      </p>
-    </div>
-    <hr>
-
-                    
-                          <div class="post-preview post-preview-index">
-     <a href="http://example.org/post/ships_again/">
-          <h4 class="post-title">Ships Again</h4>
-          
-        </a>
-        <p class="post-meta">
-          
-  A 2 minute read,
-
-Posted
- 
-on Wed, Apr 12, 2017
-
-      </p>
-    </div>
-    <hr>
-
-                    
-                          <div class="post-preview post-preview-index">
-     <a href="http://example.org/post/raw_game_mechanics_is_not_enough/">
-          <h4 class="post-title">Raw game mechanics is not enough</h4>
-          
-        </a>
-        <p class="post-meta">
-          
-  A 2 minute read,
-
-Posted
- 
-on Thu, Mar 2, 2017
-
-      </p>
-    </div>
-    <hr>
-
-                    
-                          <div class="post-preview post-preview-index">
-     <a href="http://example.org/post/gather_unit/">
-          <h4 class="post-title">Gather unit</h4>
-          
-        </a>
-        <p class="post-meta">
-          
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>Gather unit</h1>
+               <h2 class="subheading">to gather or not to gather</h2>
+               <span class="meta">
+                 
   A 2 minute read,
 
 Posted
  
 on Wed, Mar 1, 2017
 
-      </p>
-    </div>
-    <hr>
-
-                    
-                    
-                    <ul class="pager">
-                      <li class="next">
-                        <a href="http://example.org//post/">Older Posts &rarr;</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-          </div>
+               </span>
+             </div>
+           </div>
         </div>
       </div>
     </header>
 
-
     
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <p>Gather Unit</p>
+
+<p>So for now we go with simple solution.
+One Gather unit is increasing gold income by 10 gold per turn.</p>
+
+<p>Interesting part is the next one.
+Gather unit is basically is just a holder of the Gather action.
+So income is being just another atomic action that changes game state.
+And therefore it can have its own execution order.
+Which in turn makes it a bit more complicated and interesting in the same time.
+Execution order would basically mean that it could for example be before, or after cannon shot, which means you would destroy someones Gather unit BEFORE it will bring money to the player &gt;:-}
+Not sure this would be the best for players, but by setting it up this way I make it flexible and can play around with execution order when it will come to fine-tuning balance of the game.</p>
+
+<p>For now, to leave things simple and more intuitive, gather execution will be coming first.</p>
+
+<p>Also, to make it as same as other actions, it will start effecting only next turn after unit is built. Which might feel a bit un-intuitive, but would be more homogeneous.
+Off course, I will need to test it with real people, so if you guys think that it should act directly after build, pls let me know.
+So again 2 scenarios:
+Scenario 1:
+Turn 0: Order Build a Gather Unit
+Turn 1: It&rsquo;s built and it will register Gather action at the end of player&rsquo;s turn. So it has increase income, BUT NOT increases money yet. (so if it was destroyed right after building -&gt; no money)
+Turn 2: It brings Money.
+Scenario 2:
+Turn 0: Order Build a Gather Unit
+Turn 1: It&rsquo;s built and it will register Gather action right away and executes it. So it has increase income, AND increases money.
+Turn 2: It brings Money.</p>
+
+<p>I like to go with Scenario 1 for a mean time, but if you don&rsquo;t like it and prefer Scenario 2 - ping me.</p>
+
+                  
+   
+
+
+                </div>
+            </div>
+        </div>
+    </article>
 
     <hr>
     
