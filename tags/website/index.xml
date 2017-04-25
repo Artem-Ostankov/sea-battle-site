@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Website on Sea Battle Evoloved</title>
-    <link>http://example.org/tags/website/</link>
-    <description>Recent content in Website on Sea Battle Evoloved</description>
+    <title>Website on Sea Battle Evolved</title>
+    <link>https://artem-ostankov.github.io/sea-battle-site/tags/website/</link>
+    <description>Recent content in Website on Sea Battle Evolved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ostankov 2017.</copyright>
     <lastBuildDate>Mon, 24 Apr 2017 15:37:54 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/website/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://artem-ostankov.github.io/sea-battle-site/tags/website/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>New Web Site</title>
-      <link>http://example.org/post/new_website/</link>
+      <link>https://artem-ostankov.github.io/sea-battle-site/post/new_website/</link>
       <pubDate>Mon, 24 Apr 2017 15:37:54 +0200</pubDate>
       
-      <guid>http://example.org/post/new_website/</guid>
-      <description></description>
+      <guid>https://artem-ostankov.github.io/sea-battle-site/post/new_website/</guid>
+      <description>I riched the point when sharing game binaries through skype or dropbox became just time-consuming. So I thought, it&amp;rsquo;s a good moment to finally launch a simple website where I would keep and share all versions of the game.
+My last own site was built with HUGO and I got quite a good experience using that. Though I still felt a bit uncomfortable with HUGO templating DSL. So I&amp;rsquo;ve decided to look for something more familiar and expressive.</description>
     </item>
     
   </channel>
