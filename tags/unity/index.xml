@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Unity on Sea Battle Evoloved</title>
-    <link>http://example.org/tags/unity/</link>
-    <description>Recent content in Unity on Sea Battle Evoloved</description>
+    <title>Unity on Sea Battle Evolved</title>
+    <link>https://artem-ostankov.github.io/sea-battle-site/tags/unity/</link>
+    <description>Recent content in Unity on Sea Battle Evolved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ostankov 2017.</copyright>
     <lastBuildDate>Tue, 25 Apr 2017 09:15:54 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://artem-ostankov.github.io/sea-battle-site/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Simultaneous vs Ordered</title>
-      <link>http://example.org/post/simultaneous_vs_ordered/</link>
+      <link>https://artem-ostankov.github.io/sea-battle-site/post/simultaneous_vs_ordered/</link>
       <pubDate>Tue, 25 Apr 2017 09:15:54 +0200</pubDate>
       
-      <guid>http://example.org/post/simultaneous_vs_ordered/</guid>
+      <guid>https://artem-ostankov.github.io/sea-battle-site/post/simultaneous_vs_ordered/</guid>
       <description>Hi ppl !
 I worked through last comments of yours for the current version. The most common feedback was about simultaneous execution of all the actions. You guys said that during the execution phase it was quite hard to follow what is going on.
 So I&amp;rsquo;ve built a new version where this mechanics is changed a bit. In this new version actions are played in the order you committed them. So as first yours and opponents 1st action will play, then yours and opponents 2nd action &amp;hellip; and so forth.</description>
@@ -25,10 +25,10 @@ So I&amp;rsquo;ve built a new version where this mechanics is changed a bit. In 
     
     <item>
       <title>Ships Again</title>
-      <link>http://example.org/post/ships_again/</link>
+      <link>https://artem-ostankov.github.io/sea-battle-site/post/ships_again/</link>
       <pubDate>Wed, 12 Apr 2017 09:15:54 +0200</pubDate>
       
-      <guid>http://example.org/post/ships_again/</guid>
+      <guid>https://artem-ostankov.github.io/sea-battle-site/post/ships_again/</guid>
       <description>I&amp;rsquo;ve spent last few days braking my head against the wall.
 **Literally ! **
 Game design appeared to be really hard stuff &amp;hellip;
@@ -37,10 +37,10 @@ Well, you see, by now I tried many mechanics prototypes to figure out what makes
     
     <item>
       <title>Raw game mechanics is not enough</title>
-      <link>http://example.org/post/raw_game_mechanics_is_not_enough/</link>
+      <link>https://artem-ostankov.github.io/sea-battle-site/post/raw_game_mechanics_is_not_enough/</link>
       <pubDate>Thu, 02 Mar 2017 08:44:51 +0100</pubDate>
       
-      <guid>http://example.org/post/raw_game_mechanics_is_not_enough/</guid>
+      <guid>https://artem-ostankov.github.io/sea-battle-site/post/raw_game_mechanics_is_not_enough/</guid>
       <description>Current state: - WEGO mechanics - Hot-Seat only multiplayer - 4 types of units: Cannon, Shield, GatherMoney, Neutral - Basic UI with buttons for main functionality - Fog Of War visibility mechanics (still might need some refactoring)
 So all in all, game is in it&amp;rsquo;s quite basic form but seems to work!
 Current goal: bring it to people to start play testing.
@@ -49,10 +49,10 @@ The reason no one is play testing right now is that I have already first couple 
     
     <item>
       <title>Gather unit</title>
-      <link>http://example.org/post/gather_unit/</link>
+      <link>https://artem-ostankov.github.io/sea-battle-site/post/gather_unit/</link>
       <pubDate>Wed, 01 Mar 2017 11:11:59 +0100</pubDate>
       
-      <guid>http://example.org/post/gather_unit/</guid>
+      <guid>https://artem-ostankov.github.io/sea-battle-site/post/gather_unit/</guid>
       <description>Gather Unit
 So for now we go with simple solution. One Gather unit is increasing gold income by 10 gold per turn.
 Interesting part is the next one. Gather unit is basically is just a holder of the Gather action. So income is being just another atomic action that changes game state. And therefore it can have its own execution order. Which in turn makes it a bit more complicated and interesting in the same time.</description>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Sea Battle Evoloved</title>
-    <link>http://example.org/categories/</link>
-    <description>Recent content in Categories on Sea Battle Evoloved</description>
+    <title>Categories on Sea Battle Evolved</title>
+    <link>https://artem-ostankov.github.io/sea-battle-site/categories/</link>
+    <description>Recent content in Categories on Sea Battle Evolved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ostankov 2017.</copyright>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://artem-ostankov.github.io/sea-battle-site/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Game Design</title>
-      <link>http://example.org/categories/game-design/</link>
+      <link>https://artem-ostankov.github.io/sea-battle-site/categories/game-design/</link>
       <pubDate>Tue, 25 Apr 2017 09:15:54 +0200</pubDate>
       
-      <guid>http://example.org/categories/game-design/</guid>
+      <guid>https://artem-ostankov.github.io/sea-battle-site/categories/game-design/</guid>
       <description></description>
     </item>
     

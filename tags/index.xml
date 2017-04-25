@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Sea Battle Evoloved</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on Sea Battle Evoloved</description>
+    <title>Tags on Sea Battle Evolved</title>
+    <link>https://artem-ostankov.github.io/sea-battle-site/tags/</link>
+    <description>Recent content in Tags on Sea Battle Evolved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ostankov 2017.</copyright>
     <lastBuildDate>Tue, 25 Apr 2017 09:15:54 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://artem-ostankov.github.io/sea-battle-site/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Game Design</title>
-      <link>http://example.org/tags/game-design/</link>
+      <link>https://artem-ostankov.github.io/sea-battle-site/tags/game-design/</link>
       <pubDate>Tue, 25 Apr 2017 09:15:54 +0200</pubDate>
       
-      <guid>http://example.org/tags/game-design/</guid>
+      <guid>https://artem-ostankov.github.io/sea-battle-site/tags/game-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gamedev</title>
-      <link>http://example.org/tags/gamedev/</link>
+      <link>https://artem-ostankov.github.io/sea-battle-site/tags/gamedev/</link>
       <pubDate>Tue, 25 Apr 2017 09:15:54 +0200</pubDate>
       
-      <guid>http://example.org/tags/gamedev/</guid>
+      <guid>https://artem-ostankov.github.io/sea-battle-site/tags/gamedev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Indie</title>
-      <link>http://example.org/tags/indie/</link>
+      <link>https://artem-ostankov.github.io/sea-battle-site/tags/indie/</link>
       <pubDate>Tue, 25 Apr 2017 09:15:54 +0200</pubDate>
       
-      <guid>http://example.org/tags/indie/</guid>
+      <guid>https://artem-ostankov.github.io/sea-battle-site/tags/indie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unity</title>
-      <link>http://example.org/tags/unity/</link>
+      <link>https://artem-ostankov.github.io/sea-battle-site/tags/unity/</link>
       <pubDate>Tue, 25 Apr 2017 09:15:54 +0200</pubDate>
       
-      <guid>http://example.org/tags/unity/</guid>
+      <guid>https://artem-ostankov.github.io/sea-battle-site/tags/unity/</guid>
       <description></description>
     </item>
     
