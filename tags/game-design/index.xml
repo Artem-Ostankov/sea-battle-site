@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ostankov 2017.</copyright>
-    <lastBuildDate>Tue, 25 Apr 2017 09:15:54 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 28 Apr 2017 22:58:11 +0200</lastBuildDate>
     
 	<atom:link href="https://artem-ostankov.github.io/sea-battle-site/tags/game-design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Become 2D</title>
+      <link>https://artem-ostankov.github.io/sea-battle-site/post/become_2d/</link>
+      <pubDate>Fri, 28 Apr 2017 22:58:11 +0200</pubDate>
+      
+      <guid>https://artem-ostankov.github.io/sea-battle-site/post/become_2d/</guid>
+      <description>Hi ppl !
+New Friday came, and new update follows.
+So there are 2 big changes.
+Again all based on your mega-awesome feedback ! Thanks a lot for that ! :)
+Change #1: Networking
+Feedback: This would be awesome to play this game easy on website.
+There are several problems here:
+- I picked standard unity networking engine: UNet.
+- in UNet connection matchmaking is somewhat slow.
+- UNet feels quite limited in terms of extra features and integration outside of Unity</description>
+    </item>
     
     <item>
       <title>Simultaneous vs Ordered</title>
