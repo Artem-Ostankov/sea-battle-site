@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ostankov 2017.</copyright>
-    <lastBuildDate>Fri, 28 Apr 2017 22:58:11 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 04 May 2017 12:55:31 +0200</lastBuildDate>
     
 	<atom:link href="https://artem-ostankov.github.io/sea-battle-site/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>First web integrated version &#43; 2D</title>
+      <link>https://artem-ostankov.github.io/sea-battle-site/post/photon_2d/</link>
+      <pubDate>Thu, 04 May 2017 12:55:31 +0200</pubDate>
+      
+      <guid>https://artem-ostankov.github.io/sea-battle-site/post/photon_2d/</guid>
+      <description>Ok, got some progress faster then expected.
+here is the first 2D and Photon based version.
+It&amp;rsquo;s finally possible to play online.
+Though there is no lobby, player name, any way to see if another player is online&amp;hellip;
+But it&amp;rsquo;s good enough to try with few people ;)
+Play online!</description>
+    </item>
     
     <item>
       <title>Become 2D</title>
